@@ -28,7 +28,7 @@ List of modules used: re, os, sys, argparse, operator, mathplotlib, unittest, sh
 ```
 
 #### Demo
-[![Watch the video](https://github.com/datonedoe/1801FruityCodingChallenge/blob/master/asset/video.png)]((http://youtu.be/zWi7Mx5ufzw)
+[![Watch the video](https://github.com/datonedoe/1801FruityCodingChallenge/blob/master/asset/video.png)](http://youtu.be/zWi7Mx5ufzw)
 
 ## CONTENTS
 
