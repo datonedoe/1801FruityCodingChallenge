@@ -22,10 +22,10 @@ def findTreasure(rootDir=".", word=DEFAULT_REGEX):
 
     # traverse root directory, and list directories as dirs and files as files
     for dirpath, dirnames, filenames in os.walk(root):
-        print("root", root)
-        print("Current Path:", dirpath)
-        print("Directories:", dirnames)
-        print("Files", filenames)
+        # print("root", root)
+        # print("Current Path:", dirpath)
+        # print("Directories:", dirnames)
+        # print("Files", filenames)
         filecount=0;
         for filename in filenames:
             filename= os.path.join(dirpath, filename)
@@ -71,8 +71,9 @@ if __name__=="__main__":
 
     answer=findTreasure(root_dir,keyword)
 
-    for eachKey in sorted(answer):
-        print(eachKey, ":", answer[eachKey])
+    # show sorted answer
+    # for eachKey in sorted(answer):
+    #     print(eachKey, ":", answer[eachKey])
 
     if answer != None:
         print(answer)

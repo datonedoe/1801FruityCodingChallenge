@@ -12,12 +12,12 @@ parser.add_argument("-r", "--root_dir", metavar="", help="Root directory to star
 parser.add_argument("-k", "--keyword", metavar="", help="Regular expression, DEFAULT: \"^[a-zA-Z]+_TESTResult.*\"")
 args=parser.parse_args()
 
-MIN_ITERATION = 200
-MAX_ITERATION = 1000
+MIN_ITERATION = 50
+MAX_ITERATION = 100
 MIN_NUM_FILE_GENERATED = 1
 MAX_NUM_FILE_GENERATED = 10
-MIN_NUM_FOLDER_GENERATED = 1
-MAX_NUM_FOLDER_GENERATED = 3
+MIN_NUM_FOLDER_GENERATED = 0
+MAX_NUM_FOLDER_GENERATED = 2
 DEFAULT_REGEX="^[a-zA-Z]+_TESTResult.*"
 validFileContents = []
 
