@@ -15,16 +15,16 @@ List of modules used: re, os, sys, argparse, operator, mathplotlib, unittest, sh
 ## RECOMMENDED PROCEDURES FOR RUNNING AND TESTING
 ```
 1. Create an empty folder (namely 'playground' in directory containing script.py, setupFolder.py, and test_script.py)
-   mkdir playground
+      mkdir playground
 2. Run this command line to randomly generate folders and files in 'playground' folder
-   python setupFolder.py -r ./playground
+      python setupFolder.py -r ./playground
 3. Run this command line to show a list of directories that contains special regex "[A-9]TestResult"
-   python script.py -r ./playground
+      python script.py -r ./playground
 4. Run this command line perform unit testing (this command can be run by itself without #1, #2, #3 above)
-   python test_script.py
+      python test_script.py
 5. Remove playground
-   rm playground
-   [y/n] to remove folder: y
+      rm playground
+      [y/n] to remove folder: y
 ```
 
 ## CONTENTS
